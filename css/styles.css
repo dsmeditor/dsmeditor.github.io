@@ -11370,8 +11370,8 @@ html {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #000;
-  background-color: rgba(255, 255, 255, 1);
+  color: #000 !important;
+  background-color: #cc00cc;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #fff;
@@ -11598,7 +11598,6 @@ html {
   text-shadow: 1px 1px 20px #cc00cc;
   transition: 0.15s !important;
 }
-
 
 /* .carousel-caption{
   background-color: rgba(0, 0, 0, 0.5);
