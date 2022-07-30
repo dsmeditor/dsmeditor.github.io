@@ -11513,6 +11513,7 @@ html {
 }
 
 /* MINHAS ALTERAÇÕES*/
+
 #sliderGRID{
   border-radius: 50px;
 }
@@ -11532,6 +11533,18 @@ html {
   font-weight: lighter;
   font-style: italic;
   text-shadow: 1px 1px 1px #cc00cc;
+}
+
+#legendaSLIDER{
+  font-family: Resolve Sans W05 thin;
+  color: #fff;
+  text-shadow: 1px 1px 5px #cc00cc;
+  letter-spacing: .2rem;
+}
+
+#legendaSOBRE{
+  color: #fff;
+  font-weight: lighter;
 }
 
 #botaoSLIDERprev{
@@ -11564,6 +11577,8 @@ html {
 }
 
 .zoom img{
+  -webkit-filter: blur(2px);
+  opacity: 70%;
   max-width: 100%;
 	-moz-transition: all 0.3s;
 	-webkit-transition: all 0.3s;
@@ -11571,11 +11586,11 @@ html {
 }
 
 .zoom:hover img {
+  -webkit-filter: blur(0px);
   opacity: 100%;
 	-moz-transform: scale(1.1);
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
-  -webkit-filter:grayscale(0%);
 }
 
 /* NAVBAR BRAND */
@@ -11583,6 +11598,7 @@ html {
   text-shadow: 1px 1px 20px #cc00cc;
   transition: 0.15s !important;
 }
+
 /* .carousel-caption{
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 50px;
