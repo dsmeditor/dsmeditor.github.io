@@ -11543,6 +11543,11 @@ html {
 }
 
 #legendaSOBRE{
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  word-spacing: -0.05em;
+  font-size: 110%;
   color: #fff;
   font-weight: lighter;
 }
@@ -11599,6 +11604,14 @@ html {
   transition: 0.15s !important;
 }
 
+
+/* AVATAR */
+#avatarSOBRE{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
 /* .carousel-caption{
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 50px;
