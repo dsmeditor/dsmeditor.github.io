@@ -11536,19 +11536,19 @@ html {
 }
 
 #legendaSLIDER{
-  font-family: Resolve-thin;
+  font-family: Resolve-Light;
   color: #fff;
   /* text-shadow: 1px 1px 5px #cc00cc; */
   letter-spacing: .2rem;
-  /* font-weight: lighter; */
+  font-weight: lighter;
   font-style: italic;
 }
 
 #legendaTOPO{
-  font-family: Resolve-thin;
+  /* font-family: Resolve-thin; */
   color: #fff;
-  letter-spacing: .2rem;
-  /* font-weight: lighter; */
+  letter-spacing: .1rem;
+  font-weight: lighter;
   font-style: italic;
 }
 
