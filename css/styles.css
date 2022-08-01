@@ -11538,7 +11538,13 @@ html {
 #legendaSLIDER{
   font-family: Resolve Sans W05 thin;
   color: #fff;
-  text-shadow: 1px 1px 5px #cc00cc;
+  /* text-shadow: 1px 1px 5px #cc00cc; */
+  letter-spacing: .2rem;
+}
+
+#legendaTOPO{
+  font-family: Resolve Sans W05 thin;
+  color: #fff;
   letter-spacing: .2rem;
 }
 
