@@ -11544,6 +11544,15 @@ html {
   font-style: italic;
 }
 
+#legendaPORTFOLIO{
+  font-family: Resolve-Light;
+  color: #fff;
+  /* text-shadow: 1px 1px 5px #cc00cc; */
+  letter-spacing: .2rem;
+  font-weight: lighter;
+  font-style: italic;
+}
+
 #legendaTOPO{
   /* font-family: Resolve-thin; */
   color: #fff;
