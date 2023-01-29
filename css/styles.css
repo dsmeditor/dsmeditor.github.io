@@ -11631,6 +11631,71 @@ html {
   margin-right: auto;
   border-radius: 50%;
 }
+
+.card-img-top{
+  padding: 10px;
+  width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
+/* .card-img-top:hover{
+  box-shadow: 0px 0px 10px 0px rgba(204, 0, 204, 0.9);
+  transition: 0.25s;
+} */
+
+#cardCOR{
+  box-shadow: 0px 0px 1px 1px rgba(255, 255, 255, 0.9);
+  background-color: rgba(0, 0, 0, 0.0);
+  color: #fff;
+}
+
+#cardCOR:hover{
+  box-shadow: 0px 0px 5px 1px rgba(204, 0, 204, 0.9);
+  transition: 0.25s;
+}
+
+#legendaCARD{
+  font-size: 0.9rem;
+  color: white;
+  font-weight: lighter;
+  font-style: italic;
+  /* background: rgba(51, 51, 51, 0.4); */
+}
+
+#containerCARD{
+  padding-top: 150px;
+}
+
+a{
+  text-decoration: none;
+  cursor: pointer !important;
+}
+
+#botaoVOLTAR{
+  color: #fff;
+  letter-spacing: .1rem;
+  font-weight: lighter;
+  font-style: italic;
+  cursor: pointer;
+}
+
+#botaoVOLTAR:hover{
+  color:  #cc00cc;
+  transition: 0.4s;
+}
+
+#frameYT{
+  box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.9);
+}
+
+#frameYT:hover{
+  box-shadow: 0px 0px 5px 1px rgba(204, 0, 204, 0.9);
+  transition: 0.25s;
+}
+
 /* .carousel-caption{
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 50px;
