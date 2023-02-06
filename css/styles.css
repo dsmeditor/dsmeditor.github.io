@@ -11691,6 +11691,10 @@ a{
   #frameYT{ min-width: 100%; }
 }
 
+@media (max-width: 768px){
+  #carouselExampleCaptions{ min-width: 100%; }
+}
+
 /* .carousel-caption{
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 50px;
