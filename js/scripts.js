@@ -52,3 +52,5 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+document.getElementById('copyright').innerHTML =`Copyright &copy; DSM ${new Date().getFullYear()}`
